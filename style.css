@@ -12,12 +12,52 @@
   font-family: sans-serif;
 }
 
-/* your code */
-*{
-  background-color: darkgreen #1e3932;
-}
-
 body{
-  background-color: darkgreen #1e3932;
+  width:80%;
+  margin:0 auto;
 }
 
+/* your code */
+h1{
+  color: #f2f0eb;
+  font-size: 40px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+label{
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 0.15rem;
+  padding:15px 10px 15px 10px;
+  background-color: #f2f0eb;
+  display: flex;
+  justify-content: space-between;
+}
+
+*{
+  background-color: #1e3932;
+}
+
+header{
+  margin:0px;
+}
+
+.city-list div{
+  background-color: #00754a;
+  display:flex;
+  flex-direction: column;
+  margin: 10;
+  align-items: flex-end;
+  padding:3px
+}
+
+.city-list{
+  margin-top: 15px;
+  border: 1px solid white;
+  border-radius: .15rem;
+}
